@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrada VIVA+</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bem-vindo ao VIVA+</h1>
+        <p>Preencha o formulário para iniciar sua jornada de bem-estar:</p>
+        <form id="form-entrada">
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="estado-emocional">Como você está se sentindo hoje?</label>
+                <select id="estado-emocional" name="estado-emocional" required>
+                    <option value="">Selecione</option>
+                    <option value="feliz">Feliz</option>
+                    <option value="triste">Triste</option>
+                    <option value="ansioso">Ansioso</option>
+                    <option value="irritado">Irritado</option>
+                    <option value="cansado">Cansado</option>
+                    <option value="confuso">Confuso</option>
+                    <option value="motivado">Motivado</option>
+                    <option value="saudoso">Saudoso</option>
+                    <option value="culpado">Culpado</option>
+                    <option value="orgulhoso">Orgulhoso</option>
+                    <option value="aliviado">Aliviado</option>
+                    <option value="entusiasmado">Entusiasmado</option>
+                    <option value="apaixonado">Apaixonado</option>
+                    <option value="grato">Grato</option>
+                    <option value="esperançoso">Esperançoso</option>
+                </select>
+            </div>
+            <button type="submit">Iniciar Conversa</button>
+        </form>
+    </div>
+    <script>
